@@ -1,6 +1,5 @@
 language: node_js
 node_js:
-- '8'
 - '10'
 install:
 - npm install
@@ -17,3 +16,4 @@ deploy:
   on:
     repo: hyubs/pipeline-test
     branch: master
+  tag: next
