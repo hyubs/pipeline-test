@@ -16,4 +16,5 @@ deploy:
   on:
     repo: hyubs/pipeline-test
     branch: master
+  skip_cleanup: true
   tag: next
